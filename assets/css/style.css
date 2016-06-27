@@ -1,0 +1,62 @@
+/*
+My fist attempt at syling a web site, the objective is to match an exaple sit witht the following guidelines
+Teal color (used for headings and backgrounds) = #4aaaa5
+-Regular font color (used for paragraphs and all text besides the headings) = #777777
+-Main header background color = #ffffff
+-Main header border color = #cccccc
+-Footer background color = #666666
+-Main content background color = #ffffff
+-Main content border color = #dddddd
+-Heading fonts use font-family: 'Georgia', Times, Times New Roman, serif;
+-All other fonts use 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+-The width of the entire content area is 960px wide
+-The width of the main section content is 650px wide
+-The width of the sidebar is 270px
+*/
+body{
+	color: #777777;
+}
+html, body {
+height: 100%;
+}
+#main {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+#header {
+	background-color: #4aaaa5;
+	float: left;
+	color: white;
+	margin-left: 5%;
+	font-variant: times;
+}
+#nav {
+	float: right;
+	margin-right: 2%;
+}
+#social {
+	float: right;
+	border: 1px;
+	
+}
+#main {
+	float: left;
+	padding: 20px;
+	border: 10px
+	width:200px;
+}
+div {
+	display: block;
+
+}
+#bottom, .push {
+height: 4em;
+clear: both;
+align-content: center;
+}
+.selfy{
+	height: 150px;
+	width: 150px;
+}
