@@ -19,10 +19,6 @@ body{
 body{
 	color: #777777;
 }
-.pro{
-	width: 840px;
-	height: 840px;
-}
 html, body {
 height: 100%;
 }
@@ -32,11 +28,6 @@ height: 100%;
 	height: auto !important;
 	height: 100%;
 	margin: 0 auto -4em;
-	float: left;
-    padding: 20px;
-    margin: 20px;
-    border: 10px;
-    width: 960px;
 	
 }
 #main, .maxwidth {
@@ -58,20 +49,15 @@ height: 100%;
 }
 .title{
 	float: left;
-    margin: 0px 40px;
+    margin: 0px 20px;
     color: white;
     background-color: #4aaaa5;
-    padding: 35px 20px;e
+    padding: 35px 20px;
     font-size: 30px;
     font-weight: bolder;
     text-align: center;
 }
-article p{
-	
-	line-height: 1.25;
-	font-family: sans-serif;
-	padding-top: 5px;
-}
+
 #nav {
 	float: right;
     margin-right: 60px;
@@ -98,20 +84,23 @@ nav a{
 	width: 270px;
 	background-color: white;
 	border: 2px solid #dddddd;
-	text-align: center;
-	
+	text-align: center
+	overflow: scroll;
 }
 .selfy{
 	float: left;
-	margin: 10px 20px;
-	height: 150px;
-	width: 150px;
 }
 .pic{
 	padding: 10px 5px;
     height: 50px;
     width: 50px;
     margin-bottom: 15px;
+}
+#main {
+	float: left;
+	padding: 20px;
+	border: 10px
+	width:200px;
 }
 div h3{
 	font-size: 20px;
@@ -135,7 +124,10 @@ text-align: center;
 	color: #cccccc;
     padding: 25px 0px;
 }
-
+.selfy{
+	height: 150px;
+	width: 150px;
+}
 input, textarea {
     width: 90%;
     margin: 0px 20px;
@@ -143,7 +135,6 @@ input, textarea {
 }
 textarea {
     padding: 20px 0px;
-    overflow: scroll;
 }
 button {
     color: white;
@@ -162,7 +153,7 @@ div h2 {
     font-size: 30px;
     font-weight: bold;
     margin: 10px 20px;
-    width: 94%;
+    width: 90%;
     padding: 10px 0px;
     border-bottom: 1px solid #dddddd;
 }
